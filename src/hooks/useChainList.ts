@@ -8,34 +8,14 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
-      name: "Nova Network",
+      name: "Bitrock Mainnet",
       network: "Mainnet",
-      rpc: ["https://connect.novanetwork.io/"],
+      rpc: ["https://connect.bit-rock.io/"],
     },
     {
-      name: "Nebula Testnet",
+      name: "Bitrock Testnet",
       network: "Testnet",
-      rpc: ["https://testnet.rpc.novanetwork.io:9070/"],
-    },
-    {
-      name: "Ethereum",
-      network: "Mainnet",
-      rpc: ["https://mainnet.infura.io/v3/56d2793090b6497192afd6454c815389"],
-    },
-    {
-      name: "Ethereum Classic",
-      network: "Mainnet",
-      rpc: ["https://www.ethercluster.com/etc"],
-    },
-    {
-      name: "Binance Smart Chain",
-      network: "Mainnet",
-      rpc: ["https://bsc-dataseed1.binance.org/"],
-    },
-    {
-      name: "Fantom Opera",
-      network: "Mainnet",
-      rpc: ["https://rpc.ftm.tools/"],
+      rpc: ["https://testnet.bit-rock.io/"],
     },
   ]);
 
