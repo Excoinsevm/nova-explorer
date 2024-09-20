@@ -8,14 +8,14 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
-      name: "Bitrock Mainnet",
+      name: "BSC Triangular",
       network: "Mainnet",
-      rpc: ["https://connect.bit-rock.io/"],
+      rpc: ["https://rpc.phalcon.blocksec.com/rpc_dc3ae5b7cc12479f8110e13ee16821e7"],
     },
     {
-      name: "Bitrock Testnet",
+      name: "Triangular Muki",
       network: "Testnet",
-      rpc: ["https://testnet.bit-rock.io/"],
+      rpc: ["https://rpc.phalcon.blocksec.com/rpc_dc3ae5b7cc12479f8110e13ee16821e7"],
     },
   ]);
 
