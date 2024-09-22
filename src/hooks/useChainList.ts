@@ -8,9 +8,9 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
-      name: "BSC Triangular",
+      name: "Triangular",
       network: "Mainnet",
-      rpc: ["https://rpc.phalcon.blocksec.com/rpc_dc3ae5b7cc12479f8110e13ee16821e7"],
+      rpc: ["https://subnets.avacloud.io/a2df7ca2-e4fe-43df-af2a-c4e84feb64ad"],
     },
     {
       name: "Triangular Muki",
